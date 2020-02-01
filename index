@@ -1,7 +1,67 @@
 <!DOCTYPE html>
 <html lang=en>
     <head>
-        <link rel="stylesheet" href="css/styles.css">
+        <style>
+                 *{
+                                margin: 0;
+                                padding: 0;
+                                font-family: cambria;
+                                background-color: black;
+
+                }
+                .cover{
+                                width: 100%;
+                }
+                .menu-bar ul{
+                                  list-style-type: none;
+                                  margin: 0;
+                                  padding: 0;
+                                  background-color: #000000;
+                }
+                .menu-bar{
+                               margin:0 auto;
+
+
+                }
+
+                .menu-bar ul li{
+                                  float: none;
+                    text-align: right;
+                    display: inline-block
+                }
+
+
+                .menu-bar ul li a{
+                                  display: inline-block;
+                                  color: white;
+                                  padding: 20px 20px;
+                                  text-decoration: none;
+                                  font-family:sans-serif;
+                }
+
+                .menu-bar ul li a:hover {
+                                  color: #FFA500;
+                }
+
+                .active{
+                                  background-color: red;
+
+                }
+                #menu-bar{
+                    width:100%;
+                    position: relative;
+                }
+                .logo{
+                        width: 63px;
+                        height: 58px;
+                        position: absolute;
+                        left: 50%;
+                        top:0%;
+                        margin-left: -10px;
+                    background-color: black;
+                }
+    
+</style>
     </head>
     <body>
         <div class="menu-bar">
